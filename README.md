@@ -13,8 +13,8 @@ As you can see below, the change in gas usage is perceived in the #3 log. In the
 #1, gasleft 28671
 #2, gasleft 26858
 #3, gasleft 22237
-Wei used 29154
-total ~28k gas used
+indicates ~28k gas used
+actual Wei used 29154
 ```
 
 ## 500k gas
@@ -22,8 +22,8 @@ total ~28k gas used
 #1, gasleft 478671
 #2, gasleft 476858
 #3, gasleft 465206
-Wei used 29154
-total ~35k gas used
+indicates ~35k gas used
+actual Wei used 29154
 ```
 
 ## 900k gas
@@ -31,6 +31,9 @@ total ~35k gas used
 #1, gasleft 878671
 #2, gasleft 876858
 #3, gasleft 858956
-Wei used 29154
-total ~42k gas used
+indicates ~42k gas used
+actual Wei used 29154
 ```
+
+# Update 1
+Adding the actual wei used for the transaction to the tests. This is the same for every transaction. So the
