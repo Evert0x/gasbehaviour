@@ -13,6 +13,7 @@ As you can see below, the change in gas usage is perceived in the #3 log. In the
 #1, gasleft 28671
 #2, gasleft 26858
 #3, gasleft 22237
+Wei used 29154
 total ~28k gas used
 ```
 
@@ -21,6 +22,7 @@ total ~28k gas used
 #1, gasleft 478671
 #2, gasleft 476858
 #3, gasleft 465206
+Wei used 29154
 total ~35k gas used
 ```
 
@@ -29,5 +31,6 @@ total ~35k gas used
 #1, gasleft 878671
 #2, gasleft 876858
 #3, gasleft 858956
+Wei used 29154
 total ~42k gas used
 ```
