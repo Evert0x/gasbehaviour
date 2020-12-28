@@ -7,5 +7,6 @@ import "./CallbackBridge.sol";
 contract Test is CallbackBridge {
   function f() public usingCallback {
     console.log("#2,", "gasleft", gasleft());
+    emit GasL(2, gasleft());
   }
 }

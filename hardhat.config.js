@@ -1,7 +1,9 @@
 require("@nomiclabs/hardhat-waffle");
+require("@nomiclabs/hardhat-etherscan");
 require("dotenv").config();
 const INFURA_API_KEY = process.env.INFURA_API_KEY || "";
 const GOERLI_PRIVATE_KEY = process.env.GOERLI_PRIVATE_KEY || "";
+const ETHERSCAN_API = process.env.ETHERSCAN_API || "";
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -28,4 +30,7 @@ module.exports = {
       accounts: [GOERLI_PRIVATE_KEY].filter((item) => item !== ""),
     },
   },
+  etherscan: {
+    apiKey: ETHERSCAN_API
+  }
 };

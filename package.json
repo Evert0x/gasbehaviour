@@ -9,6 +9,7 @@
     "hardhat": "^2.0.6"
   },
   "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^2.1.0",
     "dotenv": "^8.2.0"
   }
 }

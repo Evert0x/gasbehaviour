@@ -1,10 +1,12 @@
 const { expect } = require("chai");
 
 describe("Gas test", function () {
+  this.timeout(3000000000000);
+
   let test;
   let callback;
 
-  beforeEach(async function () {
+  before(async function () {
     [owner, user] = await ethers.getSigners();
     const Test = await ethers.getContractFactory("Test");
     const Callback = await ethers.getContractFactory("Callback");
